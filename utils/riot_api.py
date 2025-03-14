@@ -163,3 +163,101 @@ class RiotAPI:
         except Exception as e:
             print(f"Error getting ranked matches for {game_name}#{tag_line}: {str(e)}")
             return []
+
+
+    def get_match_timeline(self, match_id):
+        try:
+            url = f"https://americas.api.riotgames.com/lol/match/v5/matches/{match_id}/timeline"
+            response = requests.get(url, headers=self.headers)
+            response.raise_for_status()
+            data = response.json()
+            return data
+        except requests.exceptions.RequestException as e:
+            print(f"Error making request for match timeline {match_id}: {str(e)}")
+            return None
+        except ValueError as e:
+            print(f"Error processing match timeline data for match {match_id}: {str(e)}")
+            return None
+        
+        
+    
+    ### Helper Functions ###
+    
+    def determine_team(self, puuid, match_id):
+        """
+        Determines which team a player was on in a specific match
+        
+        Args:
+            puuid (str): The player's PUUID
+            match_id (str): The match ID to check
+            
+        Returns:
+            str: 'blue' if blue team and 'red' if red team
+            None if player not found in match
+        """
+        # Get match data
+        match_data = self.get_match_data_by_match_id(match_id)
+        
+        # Get participants info from match data
+        participants = match_data["info"]["participants"]
+        
+        # Find the participant ID for the given PUUID
+        for participant in participants:
+            if participant["puuid"] == puuid:
+                if participant["teamId"] == 100:
+                    return "blue"
+                elif participant["teamId"] == 200:
+                    return "red"
+                
+        # Return None if player not found in match
+        return "none"
+    
+    
+    # Function expects a frame object
+    def extract_gold_difference(self, frame):
+        """
+        Extracts the total gold difference between the blue and red team at a given frame. Difference is positive if blue 
+        team has more gold and negative if red team has more gold
+        """
+        
+        # Team ids
+        blue_team_ids = {"1", "2", "3", "4", "5"}
+        red_team_ids = {"6", "7", "8", "9", "10"}
+        
+        # Initializing a gold difference of 0
+        gold_difference = 0
+        participant_frames = frame["participantFrames"]
+        for key, value in participant_frames.items():
+            
+            # We add to gold_difference if the participant is on the blue team
+            if key in blue_team_ids:
+                gold_difference += value["totalGold"]
+            
+            # We subtract from gold_difference if the participant is on the red team
+            elif key in red_team_ids:
+                gold_difference -= value["totalGold"]
+
+        return gold_difference
+    
+    def extract_frame_kills_difference(self, frame):
+        """
+        Extracts the difference in kills between the blue and red team that occurred in a given frame
+        """
+        
+        # Team ids
+        blue_team_ids = {1, 2, 3, 4, 5}
+        red_team_ids = {6, 7, 8, 9, 10}
+        
+        # Team kill counts
+        blue_team_kills = 0
+        red_team_kills = 0
+        for event in frame["events"]:
+            if event["type"] == "CHAMPION_KILL":
+                if event["killerId"] in blue_team_ids:
+                    blue_team_kills += 1
+                elif event["killerId"] in red_team_ids:
+                    red_team_kills += 1
+        return blue_team_kills - red_team_kills
+    
+        
+        

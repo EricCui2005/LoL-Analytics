@@ -1,0 +1,1389 @@
+{
+  "events": [
+    {
+      "assistingParticipantIds": [10],
+      "bounty": 300,
+      "killStreakLength": 3,
+      "killerId": 7,
+      "position": {
+        "x": 8078,
+        "y": 6575
+      },
+      "shutdownBounty": 0,
+      "timestamp": 541080,
+      "type": "CHAMPION_KILL",
+      "victimDamageDealt": [
+        {
+          "basic": true,
+          "magicDamage": 0,
+          "name": "Ekko",
+          "participantId": 7,
+          "physicalDamage": 46,
+          "spellName": "ekkobasicattack2",
+          "spellSlot": 65,
+          "trueDamage": 0,
+          "type": "OTHER"
+        },
+        {
+          "basic": false,
+          "magicDamage": 201,
+          "name": "Ekko",
+          "participantId": 7,
+          "physicalDamage": 0,
+          "spellName": "",
+          "spellSlot": 3,
+          "trueDamage": 0,
+          "type": "OTHER"
+        },
+        {
+          "basic": false,
+          "magicDamage": 31,
+          "name": "Ekko",
+          "participantId": 7,
+          "physicalDamage": 30,
+          "spellName": "ekkoe",
+          "spellSlot": 2,
+          "trueDamage": 0,
+          "type": "OTHER"
+        },
+        {
+          "basic": false,
+          "magicDamage": 191,
+          "name": "Ekko",
+          "participantId": 7,
+          "physicalDamage": 0,
+          "spellName": "ekkoq",
+          "spellSlot": 0,
+          "trueDamage": 0,
+          "type": "OTHER"
+        },
+        {
+          "basic": false,
+          "magicDamage": 0,
+          "name": "Ekko",
+          "participantId": 7,
+          "physicalDamage": 0,
+          "spellName": "burning",
+          "spellSlot": 0,
+          "trueDamage": 154,
+          "type": "OTHER"
+        },
+        {
+          "basic": true,
+          "magicDamage": 0,
+          "name": "Ekko",
+          "participantId": 7,
+          "physicalDamage": 123,
+          "spellName": "ekkopassive",
+          "spellSlot": 63,
+          "trueDamage": 0,
+          "type": "OTHER"
+        },
+        {
+          "basic": false,
+          "magicDamage": 144,
+          "name": "Ekko",
+          "participantId": 7,
+          "physicalDamage": 0,
+          "spellName": "ekkopassive",
+          "spellSlot": 63,
+          "trueDamage": 0,
+          "type": "OTHER"
+        },
+        {
+          "basic": false,
+          "magicDamage": 22,
+          "name": "Ekko",
+          "participantId": 7,
+          "physicalDamage": 0,
+          "spellName": "",
+          "spellSlot": -1,
+          "trueDamage": 37,
+          "type": "OTHER"
+        },
+        {
+          "basic": false,
+          "magicDamage": 25,
+          "name": "Ekko",
+          "participantId": 7,
+          "physicalDamage": 0,
+          "spellName": "ekkowpassive",
+          "spellSlot": 1,
+          "trueDamage": 0,
+          "type": "OTHER"
+        },
+        {
+          "basic": false,
+          "magicDamage": 0,
+          "name": "Ekko",
+          "participantId": 7,
+          "physicalDamage": 76,
+          "spellName": "",
+          "spellSlot": 0,
+          "trueDamage": 0,
+          "type": "OTHER"
+        },
+        {
+          "basic": false,
+          "magicDamage": 89,
+          "name": "Ekko",
+          "participantId": 10,
+          "physicalDamage": 0,
+          "spellName": "ekkoq",
+          "spellSlot": 0,
+          "trueDamage": 0,
+          "type": "OTHER"
+        }
+      ],
+      "victimDamageReceived": [
+        {
+          "basic": true,
+          "magicDamage": 0,
+          "name": "Briar",
+          "participantId": 7,
+          "physicalDamage": 101,
+          "spellName": "briarbasicattack5",
+          "spellSlot": 68,
+          "trueDamage": 0,
+          "type": "OTHER"
+        },
+        {
+          "basic": false,
+          "magicDamage": 83,
+          "name": "Briar",
+          "participantId": 7,
+          "physicalDamage": 0,
+          "spellName": "briarq",
+          "spellSlot": 0,
+          "trueDamage": 0,
+          "type": "OTHER"
+        },
+        {
+          "basic": true,
+          "magicDamage": 0,
+          "name": "Briar",
+          "participantId": 7,
+          "physicalDamage": 203,
+          "spellName": "briarbasicattackfrenzy",
+          "spellSlot": 70,
+          "trueDamage": 0,
+          "type": "OTHER"
+        },
+        {
+          "basic": true,
+          "magicDamage": 0,
+          "name": "Briar",
+          "participantId": 7,
+          "physicalDamage": 199,
+          "spellName": "briarbasicattackfrenzy3",
+          "spellSlot": 72,
+          "trueDamage": 0,
+          "type": "OTHER"
+        },
+        {
+          "basic": true,
+          "magicDamage": 0,
+          "name": "Briar",
+          "participantId": 7,
+          "physicalDamage": 98,
+          "spellName": "briarbasicattackfrenzy2",
+          "spellSlot": 71,
+          "trueDamage": 0,
+          "type": "OTHER"
+        },
+        {
+          "basic": false,
+          "magicDamage": 0,
+          "name": "Briar",
+          "participantId": 7,
+          "physicalDamage": 353,
+          "spellName": "briarwattackspell",
+          "spellSlot": 1,
+          "trueDamage": 0,
+          "type": "OTHER"
+        },
+        {
+          "basic": false,
+          "magicDamage": 0,
+          "name": "Briar",
+          "participantId": 7,
+          "physicalDamage": 44,
+          "spellName": "",
+          "spellSlot": 0,
+          "trueDamage": 0,
+          "type": "OTHER"
+        },
+        {
+          "basic": false,
+          "magicDamage": 0,
+          "name": "Briar",
+          "participantId": 7,
+          "physicalDamage": 202,
+          "spellName": "briarp",
+          "spellSlot": 63,
+          "trueDamage": 0,
+          "type": "OTHER"
+        },
+        {
+          "basic": false,
+          "magicDamage": 330,
+          "name": "Briar",
+          "participantId": 7,
+          "physicalDamage": 0,
+          "spellName": "briare",
+          "spellSlot": 2,
+          "trueDamage": 0,
+          "type": "OTHER"
+        },
+        {
+          "basic": false,
+          "magicDamage": 0,
+          "name": "Briar",
+          "participantId": 7,
+          "physicalDamage": 88,
+          "spellName": "briarw",
+          "spellSlot": 1,
+          "trueDamage": 0,
+          "type": "OTHER"
+        }
+      ],
+      "victimId": 3
+    },
+    {
+      "itemId": 1052,
+      "participantId": 8,
+      "timestamp": 542082,
+      "type": "ITEM_DESTROYED"
+    },
+    {
+      "itemId": 1027,
+      "participantId": 8,
+      "timestamp": 542082,
+      "type": "ITEM_DESTROYED"
+    },
+    {
+      "itemId": 3802,
+      "participantId": 8,
+      "timestamp": 542082,
+      "type": "ITEM_PURCHASED"
+    },
+    {
+      "itemId": 1052,
+      "participantId": 3,
+      "timestamp": 542917,
+      "type": "ITEM_DESTROYED"
+    },
+    {
+      "itemId": 3113,
+      "participantId": 3,
+      "timestamp": 542917,
+      "type": "ITEM_PURCHASED"
+    },
+    {
+      "itemId": 1026,
+      "participantId": 8,
+      "timestamp": 543618,
+      "type": "ITEM_PURCHASED"
+    },
+    {
+      "assistingParticipantIds": [3],
+      "bounty": 300,
+      "killStreakLength": 0,
+      "killerId": 2,
+      "position": {
+        "x": 7079,
+        "y": 6362
+      },
+      "shutdownBounty": 185,
+      "timestamp": 544353,
+      "type": "CHAMPION_KILL",
+      "victimDamageDealt": [
+        {
+          "basic": true,
+          "magicDamage": 0,
+          "name": "Briar",
+          "participantId": 2,
+          "physicalDamage": 91,
+          "spellName": "briarbasicattackfrenzy2",
+          "spellSlot": 71,
+          "trueDamage": 0,
+          "type": "OTHER"
+        }
+      ],
+      "victimDamageReceived": [
+        {
+          "basic": true,
+          "magicDamage": 0,
+          "name": "Zed",
+          "participantId": 2,
+          "physicalDamage": 111,
+          "spellName": "zedbasicattack",
+          "spellSlot": 64,
+          "trueDamage": 0,
+          "type": "OTHER"
+        },
+        {
+          "basic": false,
+          "magicDamage": 0,
+          "name": "Zed",
+          "participantId": 2,
+          "physicalDamage": 390,
+          "spellName": "zedq",
+          "spellSlot": 0,
+          "trueDamage": 0,
+          "type": "OTHER"
+        },
+        {
+          "basic": false,
+          "magicDamage": 70,
+          "name": "Zed",
+          "participantId": 2,
+          "physicalDamage": 0,
+          "spellName": "zedpassive",
+          "spellSlot": 63,
+          "trueDamage": 0,
+          "type": "OTHER"
+        },
+        {
+          "basic": false,
+          "magicDamage": 0,
+          "name": "Zed",
+          "participantId": 2,
+          "physicalDamage": 95,
+          "spellName": "zede",
+          "spellSlot": 2,
+          "trueDamage": 0,
+          "type": "OTHER"
+        },
+        {
+          "basic": true,
+          "magicDamage": 0,
+          "name": "Ekko",
+          "participantId": 3,
+          "physicalDamage": 46,
+          "spellName": "ekkobasicattack2",
+          "spellSlot": 65,
+          "trueDamage": 0,
+          "type": "OTHER"
+        },
+        {
+          "basic": false,
+          "magicDamage": 201,
+          "name": "Ekko",
+          "participantId": 3,
+          "physicalDamage": 0,
+          "spellName": "",
+          "spellSlot": 3,
+          "trueDamage": 0,
+          "type": "OTHER"
+        },
+        {
+          "basic": false,
+          "magicDamage": 31,
+          "name": "Ekko",
+          "participantId": 3,
+          "physicalDamage": 30,
+          "spellName": "ekkoe",
+          "spellSlot": 2,
+          "trueDamage": 0,
+          "type": "OTHER"
+        },
+        {
+          "basic": false,
+          "magicDamage": 191,
+          "name": "Ekko",
+          "participantId": 3,
+          "physicalDamage": 0,
+          "spellName": "ekkoq",
+          "spellSlot": 0,
+          "trueDamage": 0,
+          "type": "OTHER"
+        },
+        {
+          "basic": false,
+          "magicDamage": 0,
+          "name": "Ekko",
+          "participantId": 3,
+          "physicalDamage": 0,
+          "spellName": "burning",
+          "spellSlot": 0,
+          "trueDamage": 154,
+          "type": "OTHER"
+        },
+        {
+          "basic": true,
+          "magicDamage": 0,
+          "name": "Ekko",
+          "participantId": 3,
+          "physicalDamage": 123,
+          "spellName": "ekkopassive",
+          "spellSlot": 63,
+          "trueDamage": 0,
+          "type": "OTHER"
+        },
+        {
+          "basic": false,
+          "magicDamage": 144,
+          "name": "Ekko",
+          "participantId": 3,
+          "physicalDamage": 0,
+          "spellName": "ekkopassive",
+          "spellSlot": 63,
+          "trueDamage": 0,
+          "type": "OTHER"
+        },
+        {
+          "basic": false,
+          "magicDamage": 22,
+          "name": "Ekko",
+          "participantId": 3,
+          "physicalDamage": 0,
+          "spellName": "",
+          "spellSlot": -1,
+          "trueDamage": 37,
+          "type": "OTHER"
+        },
+        {
+          "basic": false,
+          "magicDamage": 25,
+          "name": "Ekko",
+          "participantId": 3,
+          "physicalDamage": 0,
+          "spellName": "ekkowpassive",
+          "spellSlot": 1,
+          "trueDamage": 0,
+          "type": "OTHER"
+        },
+        {
+          "basic": false,
+          "magicDamage": 0,
+          "name": "Ekko",
+          "participantId": 3,
+          "physicalDamage": 76,
+          "spellName": "",
+          "spellSlot": 0,
+          "trueDamage": 0,
+          "type": "OTHER"
+        }
+      ],
+      "victimId": 7
+    },
+    {
+      "itemId": 1001,
+      "participantId": 8,
+      "timestamp": 547292,
+      "type": "ITEM_PURCHASED"
+    },
+    {
+      "itemId": 2055,
+      "participantId": 3,
+      "timestamp": 547492,
+      "type": "ITEM_PURCHASED"
+    },
+    {
+      "level": 6,
+      "participantId": 4,
+      "timestamp": 547793,
+      "type": "LEVEL_UP"
+    },
+    {
+      "level": 8,
+      "participantId": 1,
+      "timestamp": 548394,
+      "type": "LEVEL_UP"
+    },
+    {
+      "levelUpType": "NORMAL",
+      "participantId": 4,
+      "skillSlot": 4,
+      "timestamp": 549029,
+      "type": "SKILL_LEVEL_UP"
+    },
+    {
+      "itemId": 2422,
+      "participantId": 7,
+      "timestamp": 551500,
+      "type": "ITEM_DESTROYED"
+    },
+    {
+      "itemId": 3111,
+      "participantId": 7,
+      "timestamp": 551500,
+      "type": "ITEM_PURCHASED"
+    },
+    {
+      "itemId": 1029,
+      "participantId": 7,
+      "timestamp": 562154,
+      "type": "ITEM_PURCHASED"
+    },
+    {
+      "creatorId": 5,
+      "timestamp": 562220,
+      "type": "WARD_PLACED",
+      "wardType": "SIGHT_WARD"
+    },
+    {
+      "itemId": 1001,
+      "participantId": 10,
+      "timestamp": 568598,
+      "type": "ITEM_DESTROYED"
+    },
+    {
+      "itemId": 1029,
+      "participantId": 10,
+      "timestamp": 568598,
+      "type": "ITEM_DESTROYED"
+    },
+    {
+      "itemId": 3047,
+      "participantId": 10,
+      "timestamp": 568598,
+      "type": "ITEM_PURCHASED"
+    },
+    {
+      "levelUpType": "NORMAL",
+      "participantId": 1,
+      "skillSlot": 2,
+      "timestamp": 569233,
+      "type": "SKILL_LEVEL_UP"
+    },
+    {
+      "itemId": 1001,
+      "participantId": 1,
+      "timestamp": 572339,
+      "type": "ITEM_DESTROYED"
+    },
+    {
+      "itemId": 3111,
+      "participantId": 1,
+      "timestamp": 572339,
+      "type": "ITEM_PURCHASED"
+    },
+    {
+      "itemId": 1029,
+      "participantId": 10,
+      "timestamp": 572472,
+      "type": "ITEM_PURCHASED"
+    },
+    {
+      "itemId": 2055,
+      "participantId": 10,
+      "timestamp": 575211,
+      "type": "ITEM_PURCHASED"
+    },
+    {
+      "assistingParticipantIds": [5],
+      "bounty": 300,
+      "killStreakLength": 1,
+      "killerId": 2,
+      "position": {
+        "x": 6806,
+        "y": 9281
+      },
+      "shutdownBounty": 0,
+      "timestamp": 582959,
+      "type": "CHAMPION_KILL",
+      "victimDamageDealt": [
+        {
+          "basic": false,
+          "magicDamage": 74,
+          "name": "Yasuo",
+          "participantId": 2,
+          "physicalDamage": 0,
+          "spellName": "yasuoe",
+          "spellSlot": 2,
+          "trueDamage": 0,
+          "type": "OTHER"
+        },
+        {
+          "basic": false,
+          "magicDamage": 57,
+          "name": "Yasuo",
+          "participantId": 5,
+          "physicalDamage": 0,
+          "spellName": "yasuoe",
+          "spellSlot": 2,
+          "trueDamage": 0,
+          "type": "OTHER"
+        },
+        {
+          "basic": false,
+          "magicDamage": 0,
+          "name": "Yasuo",
+          "participantId": 5,
+          "physicalDamage": 150,
+          "spellName": "yasuoq1wrapper",
+          "spellSlot": 0,
+          "trueDamage": 0,
+          "type": "OTHER"
+        },
+        {
+          "basic": false,
+          "magicDamage": 0,
+          "name": "Yasuo",
+          "participantId": 5,
+          "physicalDamage": 157,
+          "spellName": "yasuoq2wrapper",
+          "spellSlot": 0,
+          "trueDamage": 0,
+          "type": "OTHER"
+        },
+        {
+          "basic": false,
+          "magicDamage": 0,
+          "name": "Yasuo",
+          "participantId": 5,
+          "physicalDamage": 23,
+          "spellName": "",
+          "spellSlot": -1,
+          "trueDamage": 0,
+          "type": "OTHER"
+        }
+      ],
+      "victimDamageReceived": [
+        {
+          "basic": false,
+          "magicDamage": 106,
+          "name": "Akali",
+          "participantId": 5,
+          "physicalDamage": 0,
+          "spellName": "akalieb",
+          "spellSlot": 2,
+          "trueDamage": 0,
+          "type": "OTHER"
+        },
+        {
+          "basic": true,
+          "magicDamage": 0,
+          "name": "Akali",
+          "participantId": 5,
+          "physicalDamage": 48,
+          "spellName": "akalip",
+          "spellSlot": 63,
+          "trueDamage": 0,
+          "type": "OTHER"
+        },
+        {
+          "basic": false,
+          "magicDamage": 60,
+          "name": "Akali",
+          "participantId": 5,
+          "physicalDamage": 0,
+          "spellName": "akalip",
+          "spellSlot": 0,
+          "trueDamage": 0,
+          "type": "OTHER"
+        },
+        {
+          "basic": false,
+          "magicDamage": 45,
+          "name": "Akali",
+          "participantId": 5,
+          "physicalDamage": 0,
+          "spellName": "akalie",
+          "spellSlot": 2,
+          "trueDamage": 0,
+          "type": "OTHER"
+        },
+        {
+          "basic": false,
+          "magicDamage": 0,
+          "name": "Akali",
+          "participantId": 5,
+          "physicalDamage": 0,
+          "spellName": "summonerdot",
+          "spellSlot": 4,
+          "trueDamage": 136,
+          "type": "OTHER"
+        },
+        {
+          "basic": false,
+          "magicDamage": 86,
+          "name": "Akali",
+          "participantId": 5,
+          "physicalDamage": 0,
+          "spellName": "",
+          "spellSlot": -1,
+          "trueDamage": 0,
+          "type": "OTHER"
+        },
+        {
+          "basic": false,
+          "magicDamage": 128,
+          "name": "Akali",
+          "participantId": 5,
+          "physicalDamage": 0,
+          "spellName": "akaliq",
+          "spellSlot": 0,
+          "trueDamage": 0,
+          "type": "OTHER"
+        },
+        {
+          "basic": true,
+          "magicDamage": 0,
+          "name": "SRU_OrderMinionMelee",
+          "participantId": 0,
+          "physicalDamage": 10,
+          "spellName": "sru_orderminionrangedbasicattack",
+          "spellSlot": 64,
+          "trueDamage": 0,
+          "type": "MINION"
+        },
+        {
+          "basic": true,
+          "magicDamage": 0,
+          "name": "SRU_OrderMinionMelee",
+          "participantId": 0,
+          "physicalDamage": 10,
+          "spellName": "sru_orderminionrangedbasicattack2",
+          "spellSlot": 65,
+          "trueDamage": 0,
+          "type": "MINION"
+        },
+        {
+          "basic": true,
+          "magicDamage": 0,
+          "name": "SRU_OrderMinionMelee",
+          "participantId": 0,
+          "physicalDamage": 9,
+          "spellName": "sru_orderminionmeleebasicattack",
+          "spellSlot": 64,
+          "trueDamage": 0,
+          "type": "MINION"
+        },
+        {
+          "basic": false,
+          "magicDamage": 0,
+          "name": "Zed",
+          "participantId": 2,
+          "physicalDamage": 382,
+          "spellName": "zedq",
+          "spellSlot": 0,
+          "trueDamage": 0,
+          "type": "OTHER"
+        },
+        {
+          "basic": false,
+          "magicDamage": 0,
+          "name": "Zed",
+          "participantId": 2,
+          "physicalDamage": 94,
+          "spellName": "zedw",
+          "spellSlot": 1,
+          "trueDamage": 0,
+          "type": "OTHER"
+        }
+      ],
+      "victimId": 6
+    },
+    {
+      "itemId": 1036,
+      "participantId": 6,
+      "timestamp": 587501,
+      "type": "ITEM_PURCHASED"
+    },
+    {
+      "killerId": 4,
+      "laneType": "BOT_LANE",
+      "position": {
+        "x": 13866,
+        "y": 4505
+      },
+      "teamId": 200,
+      "timestamp": 598421,
+      "type": "TURRET_PLATE_DESTROYED"
+    },
+    {
+      "bounty": 0,
+      "buildingType": "TOWER_BUILDING",
+      "killerId": 4,
+      "laneType": "BOT_LANE",
+      "position": {
+        "x": 13866,
+        "y": 4505
+      },
+      "teamId": 200,
+      "timestamp": 598421,
+      "towerType": "OUTER_TURRET",
+      "type": "BUILDING_KILL"
+    },
+    {
+      "featType": 1,
+      "featValue": 1,
+      "teamId": 100,
+      "timestamp": 598421,
+      "type": "FEAT_UPDATE"
+    },
+    {
+      "featType": 1,
+      "featValue": 1001,
+      "teamId": 200,
+      "timestamp": 598421,
+      "type": "FEAT_UPDATE"
+    }
+  ],
+  "participantFrames": {
+    "1": {
+      "championStats": {
+        "abilityHaste": 0,
+        "abilityPower": 0,
+        "armor": 63,
+        "armorPen": 0,
+        "armorPenPercent": 0,
+        "attackDamage": 119,
+        "attackSpeed": 127,
+        "bonusArmorPenPercent": 0,
+        "bonusMagicPenPercent": 0,
+        "ccReduction": 29,
+        "cooldownReduction": 0,
+        "health": 1532,
+        "healthMax": 1638,
+        "healthRegen": 33,
+        "lifesteal": 3,
+        "magicPen": 0,
+        "magicPenPercent": 0,
+        "magicResist": 59,
+        "movementSpeed": 385,
+        "omnivamp": 0,
+        "physicalVamp": 0,
+        "power": 107,
+        "powerMax": 819,
+        "powerRegen": 0,
+        "spellVamp": 0
+      },
+      "currentGold": 239,
+      "damageStats": {
+        "magicDamageDone": 0,
+        "magicDamageDoneToChampions": 0,
+        "magicDamageTaken": 2137,
+        "physicalDamageDone": 19657,
+        "physicalDamageDoneToChampions": 2346,
+        "physicalDamageTaken": 2808,
+        "totalDamageDone": 20727,
+        "totalDamageDoneToChampions": 2991,
+        "totalDamageTaken": 5323,
+        "trueDamageDone": 1070,
+        "trueDamageDoneToChampions": 644,
+        "trueDamageTaken": 378
+      },
+      "goldPerSecond": 0,
+      "jungleMinionsKilled": 0,
+      "level": 8,
+      "minionsKilled": 60,
+      "participantId": 1,
+      "position": {
+        "x": 1207,
+        "y": 10468
+      },
+      "timeEnemySpentControlled": 56347,
+      "totalGold": 3089,
+      "xp": 4552
+    },
+    "2": {
+      "championStats": {
+        "abilityHaste": 0,
+        "abilityPower": 0,
+        "armor": 59,
+        "armorPen": 0,
+        "armorPenPercent": 0,
+        "attackDamage": 149,
+        "attackSpeed": 119,
+        "bonusArmorPenPercent": 0,
+        "bonusMagicPenPercent": 0,
+        "ccReduction": 0,
+        "cooldownReduction": 0,
+        "health": 583,
+        "healthMax": 1290,
+        "healthRegen": 98,
+        "lifesteal": 0,
+        "magicPen": 0,
+        "magicPenPercent": 0,
+        "magicResist": 40,
+        "movementSpeed": 370,
+        "omnivamp": 0,
+        "physicalVamp": 0,
+        "power": 176,
+        "powerMax": 200,
+        "powerRegen": 100,
+        "spellVamp": 0
+      },
+      "currentGold": 1828,
+      "damageStats": {
+        "magicDamageDone": 1377,
+        "magicDamageDoneToChampions": 267,
+        "magicDamageTaken": 772,
+        "physicalDamageDone": 22516,
+        "physicalDamageDoneToChampions": 5372,
+        "physicalDamageTaken": 3977,
+        "totalDamageDone": 24175,
+        "totalDamageDoneToChampions": 5849,
+        "totalDamageTaken": 5046,
+        "trueDamageDone": 281,
+        "trueDamageDoneToChampions": 209,
+        "trueDamageTaken": 296
+      },
+      "goldPerSecond": 0,
+      "jungleMinionsKilled": 0,
+      "level": 8,
+      "minionsKilled": 60,
+      "participantId": 2,
+      "position": {
+        "x": 7021,
+        "y": 7346
+      },
+      "timeEnemySpentControlled": 27786,
+      "totalGold": 4553,
+      "xp": 4819
+    },
+    "3": {
+      "championStats": {
+        "abilityHaste": 0,
+        "abilityPower": 67,
+        "armor": 48,
+        "armorPen": 0,
+        "armorPenPercent": 0,
+        "attackDamage": 69,
+        "attackSpeed": 113,
+        "bonusArmorPenPercent": 0,
+        "bonusMagicPenPercent": 0,
+        "ccReduction": 0,
+        "cooldownReduction": 0,
+        "health": 1019,
+        "healthMax": 1106,
+        "healthRegen": 25,
+        "lifesteal": 0,
+        "magicPen": 0,
+        "magicPenPercent": 0,
+        "magicResist": 40,
+        "movementSpeed": 353,
+        "omnivamp": 0,
+        "physicalVamp": 0,
+        "power": 376,
+        "powerMax": 556,
+        "powerRegen": 68,
+        "spellVamp": 0
+      },
+      "currentGold": 478,
+      "damageStats": {
+        "magicDamageDone": 19279,
+        "magicDamageDoneToChampions": 986,
+        "magicDamageTaken": 2047,
+        "physicalDamageDone": 8725,
+        "physicalDamageDoneToChampions": 416,
+        "physicalDamageTaken": 6123,
+        "totalDamageDone": 40644,
+        "totalDamageDoneToChampions": 1652,
+        "totalDamageTaken": 8273,
+        "trueDamageDone": 12639,
+        "trueDamageDoneToChampions": 249,
+        "trueDamageTaken": 102
+      },
+      "goldPerSecond": 0,
+      "jungleMinionsKilled": 44,
+      "level": 6,
+      "minionsKilled": 5,
+      "participantId": 3,
+      "position": {
+        "x": 3604,
+        "y": 7803
+      },
+      "timeEnemySpentControlled": 71134,
+      "totalGold": 2928,
+      "xp": 3090
+    },
+    "4": {
+      "championStats": {
+        "abilityHaste": 0,
+        "abilityPower": 0,
+        "armor": 44,
+        "armorPen": 0,
+        "armorPenPercent": 0,
+        "attackDamage": 106,
+        "attackSpeed": 158,
+        "bonusArmorPenPercent": 0,
+        "bonusMagicPenPercent": 0,
+        "ccReduction": 0,
+        "cooldownReduction": 0,
+        "health": 1175,
+        "healthMax": 1178,
+        "healthRegen": 11,
+        "lifesteal": 4,
+        "magicPen": 0,
+        "magicPenPercent": 0,
+        "magicResist": 35,
+        "movementSpeed": 350,
+        "omnivamp": 0,
+        "physicalVamp": 0,
+        "power": 253,
+        "powerMax": 418,
+        "powerRegen": 19,
+        "spellVamp": 0
+      },
+      "currentGold": 1021,
+      "damageStats": {
+        "magicDamageDone": 0,
+        "magicDamageDoneToChampions": 0,
+        "magicDamageTaken": 482,
+        "physicalDamageDone": 17551,
+        "physicalDamageDoneToChampions": 2405,
+        "physicalDamageTaken": 2373,
+        "totalDamageDone": 17629,
+        "totalDamageDoneToChampions": 2483,
+        "totalDamageTaken": 2880,
+        "trueDamageDone": 78,
+        "trueDamageDoneToChampions": 78,
+        "trueDamageTaken": 24
+      },
+      "goldPerSecond": 0,
+      "jungleMinionsKilled": 0,
+      "level": 6,
+      "minionsKilled": 56,
+      "participantId": 4,
+      "position": {
+        "x": 13393,
+        "y": 4071
+      },
+      "timeEnemySpentControlled": 186110,
+      "totalGold": 3721,
+      "xp": 3079
+    },
+    "5": {
+      "championStats": {
+        "abilityHaste": 0,
+        "abilityPower": 64,
+        "armor": 41,
+        "armorPen": 0,
+        "armorPenPercent": 0,
+        "attackDamage": 75,
+        "attackSpeed": 112,
+        "bonusArmorPenPercent": 0,
+        "bonusMagicPenPercent": 0,
+        "ccReduction": 0,
+        "cooldownReduction": 0,
+        "health": 1167,
+        "healthMax": 1460,
+        "healthRegen": 37,
+        "lifesteal": 0,
+        "magicPen": 0,
+        "magicPenPercent": 0,
+        "magicResist": 45,
+        "movementSpeed": 489,
+        "omnivamp": 0,
+        "physicalVamp": 0,
+        "power": 115,
+        "powerMax": 200,
+        "powerRegen": 100,
+        "spellVamp": 0
+      },
+      "currentGold": 652,
+      "damageStats": {
+        "magicDamageDone": 9215,
+        "magicDamageDoneToChampions": 1801,
+        "magicDamageTaken": 797,
+        "physicalDamageDone": 5105,
+        "physicalDamageDoneToChampions": 612,
+        "physicalDamageTaken": 2704,
+        "totalDamageDone": 21609,
+        "totalDamageDoneToChampions": 2790,
+        "totalDamageTaken": 3642,
+        "trueDamageDone": 7288,
+        "trueDamageDoneToChampions": 376,
+        "trueDamageTaken": 140
+      },
+      "goldPerSecond": 50,
+      "jungleMinionsKilled": 0,
+      "level": 6,
+      "minionsKilled": 31,
+      "participantId": 5,
+      "position": {
+        "x": 7596,
+        "y": 7187
+      },
+      "timeEnemySpentControlled": 47092,
+      "totalGold": 3352,
+      "xp": 3044
+    },
+    "6": {
+      "championStats": {
+        "abilityHaste": 0,
+        "abilityPower": 0,
+        "armor": 54,
+        "armorPen": 0,
+        "armorPenPercent": 0,
+        "attackDamage": 110,
+        "attackSpeed": 174,
+        "bonusArmorPenPercent": 0,
+        "bonusMagicPenPercent": 0,
+        "ccReduction": 0,
+        "cooldownReduction": 0,
+        "health": 0,
+        "healthMax": 1294,
+        "healthRegen": 21,
+        "lifesteal": 3,
+        "magicPen": 0,
+        "magicPenPercent": 0,
+        "magicResist": 41,
+        "movementSpeed": 390,
+        "omnivamp": 0,
+        "physicalVamp": 0,
+        "power": 78,
+        "powerMax": 260,
+        "powerRegen": 0,
+        "spellVamp": 0
+      },
+      "currentGold": 132,
+      "damageStats": {
+        "magicDamageDone": 6096,
+        "magicDamageDoneToChampions": 660,
+        "magicDamageTaken": 673,
+        "physicalDamageDone": 16941,
+        "physicalDamageDoneToChampions": 3499,
+        "physicalDamageTaken": 5528,
+        "totalDamageDone": 23262,
+        "totalDamageDoneToChampions": 4349,
+        "totalDamageTaken": 6578,
+        "trueDamageDone": 224,
+        "trueDamageDoneToChampions": 188,
+        "trueDamageTaken": 376
+      },
+      "goldPerSecond": 0,
+      "jungleMinionsKilled": 0,
+      "level": 7,
+      "minionsKilled": 56,
+      "participantId": 6,
+      "position": {
+        "x": 6806,
+        "y": 9281
+      },
+      "timeEnemySpentControlled": 15960,
+      "totalGold": 3282,
+      "xp": 3601
+    },
+    "7": {
+      "championStats": {
+        "abilityHaste": 0,
+        "abilityPower": 0,
+        "armor": 65,
+        "armorPen": 0,
+        "armorPenPercent": 0,
+        "attackDamage": 156,
+        "attackSpeed": 109,
+        "bonusArmorPenPercent": 0,
+        "bonusMagicPenPercent": 0,
+        "ccReduction": 29,
+        "cooldownReduction": 0,
+        "health": 1155,
+        "healthMax": 1155,
+        "healthRegen": 0,
+        "lifesteal": 0,
+        "magicPen": 0,
+        "magicPenPercent": 0,
+        "magicResist": 61,
+        "movementSpeed": 402,
+        "omnivamp": 0,
+        "physicalVamp": 0,
+        "power": 0,
+        "powerMax": 0,
+        "powerRegen": 0,
+        "spellVamp": 0
+      },
+      "currentGold": 323,
+      "damageStats": {
+        "magicDamageDone": 7852,
+        "magicDamageDoneToChampions": 1460,
+        "magicDamageTaken": 2793,
+        "physicalDamageDone": 34957,
+        "physicalDamageDoneToChampions": 5442,
+        "physicalDamageTaken": 7570,
+        "totalDamageDone": 60192,
+        "totalDamageDoneToChampions": 7084,
+        "totalDamageTaken": 10795,
+        "trueDamageDone": 17381,
+        "trueDamageDoneToChampions": 182,
+        "trueDamageTaken": 432
+      },
+      "goldPerSecond": 0,
+      "jungleMinionsKilled": 58,
+      "level": 7,
+      "minionsKilled": 5,
+      "participantId": 7,
+      "position": {
+        "x": 7201,
+        "y": 11731
+      },
+      "timeEnemySpentControlled": 156043,
+      "totalGold": 4923,
+      "xp": 3592
+    },
+    "8": {
+      "championStats": {
+        "abilityHaste": 0,
+        "abilityPower": 113,
+        "armor": 48,
+        "armorPen": 0,
+        "armorPenPercent": 0,
+        "attackDamage": 70,
+        "attackSpeed": 122,
+        "bonusArmorPenPercent": 0,
+        "bonusMagicPenPercent": 0,
+        "ccReduction": 0,
+        "cooldownReduction": 0,
+        "health": 1360,
+        "healthMax": 1360,
+        "healthRegen": 11,
+        "lifesteal": 0,
+        "magicPen": 0,
+        "magicPenPercent": 0,
+        "magicResist": 37,
+        "movementSpeed": 355,
+        "omnivamp": 0,
+        "physicalVamp": 0,
+        "power": 907,
+        "powerMax": 1112,
+        "powerRegen": 25,
+        "spellVamp": 0
+      },
+      "currentGold": 399,
+      "damageStats": {
+        "magicDamageDone": 12319,
+        "magicDamageDoneToChampions": 2007,
+        "magicDamageTaken": 164,
+        "physicalDamageDone": 7237,
+        "physicalDamageDoneToChampions": 1092,
+        "physicalDamageTaken": 1712,
+        "totalDamageDone": 26719,
+        "totalDamageDoneToChampions": 3556,
+        "totalDamageTaken": 2548,
+        "trueDamageDone": 7162,
+        "trueDamageDoneToChampions": 456,
+        "trueDamageTaken": 671
+      },
+      "goldPerSecond": 0,
+      "jungleMinionsKilled": 0,
+      "level": 8,
+      "minionsKilled": 67,
+      "participantId": 8,
+      "position": {
+        "x": 1690,
+        "y": 11228
+      },
+      "timeEnemySpentControlled": 18768,
+      "totalGold": 3249,
+      "xp": 4958
+    },
+    "9": {
+      "championStats": {
+        "abilityHaste": 0,
+        "abilityPower": 0,
+        "armor": 25,
+        "armorPen": 0,
+        "armorPenPercent": 0,
+        "attackDamage": 69,
+        "attackSpeed": 100,
+        "bonusArmorPenPercent": 0,
+        "bonusMagicPenPercent": 0,
+        "ccReduction": 0,
+        "cooldownReduction": 0,
+        "health": 705,
+        "healthMax": 705,
+        "healthRegen": 7,
+        "lifesteal": 0,
+        "magicPen": 0,
+        "magicPenPercent": 0,
+        "magicResist": 30,
+        "movementSpeed": 514,
+        "omnivamp": 0,
+        "physicalVamp": 0,
+        "power": 300,
+        "powerMax": 300,
+        "powerRegen": 16,
+        "spellVamp": 0
+      },
+      "currentGold": 1551,
+      "damageStats": {
+        "magicDamageDone": 0,
+        "magicDamageDoneToChampions": 0,
+        "magicDamageTaken": 0,
+        "physicalDamageDone": 0,
+        "physicalDamageDoneToChampions": 0,
+        "physicalDamageTaken": 0,
+        "totalDamageDone": 0,
+        "totalDamageDoneToChampions": 0,
+        "totalDamageTaken": 0,
+        "trueDamageDone": 0,
+        "trueDamageDoneToChampions": 0,
+        "trueDamageTaken": 0
+      },
+      "goldPerSecond": 0,
+      "jungleMinionsKilled": 0,
+      "level": 1,
+      "minionsKilled": 0,
+      "participantId": 9,
+      "position": {
+        "x": 14340,
+        "y": 14390
+      },
+      "timeEnemySpentControlled": 0,
+      "totalGold": 1551,
+      "xp": 23
+    },
+    "10": {
+      "championStats": {
+        "abilityHaste": 0,
+        "abilityPower": 1,
+        "armor": 98,
+        "armorPen": 0,
+        "armorPenPercent": 0,
+        "attackDamage": 66,
+        "attackSpeed": 127,
+        "bonusArmorPenPercent": 0,
+        "bonusMagicPenPercent": 0,
+        "ccReduction": 0,
+        "cooldownReduction": 0,
+        "health": 1179,
+        "healthMax": 1322,
+        "healthRegen": 21,
+        "lifesteal": 0,
+        "magicPen": 0,
+        "magicPenPercent": 0,
+        "magicResist": 40,
+        "movementSpeed": 205,
+        "omnivamp": 0,
+        "physicalVamp": 0,
+        "power": 391,
+        "powerMax": 478,
+        "powerRegen": 19,
+        "spellVamp": 0
+      },
+      "currentGold": 120,
+      "damageStats": {
+        "magicDamageDone": 2841,
+        "magicDamageDoneToChampions": 643,
+        "magicDamageTaken": 501,
+        "physicalDamageDone": 2179,
+        "physicalDamageDoneToChampions": 775,
+        "physicalDamageTaken": 1729,
+        "totalDamageDone": 5299,
+        "totalDamageDoneToChampions": 1533,
+        "totalDamageTaken": 2309,
+        "trueDamageDone": 277,
+        "trueDamageDoneToChampions": 114,
+        "trueDamageTaken": 78
+      },
+      "goldPerSecond": 0,
+      "jungleMinionsKilled": 0,
+      "level": 6,
+      "minionsKilled": 11,
+      "participantId": 10,
+      "position": {
+        "x": 7846,
+        "y": 7981
+      },
+      "timeEnemySpentControlled": 30196,
+      "totalGold": 2845,
+      "xp": 2834
+    }
+  },
+  "timestamp": 600225
+}
