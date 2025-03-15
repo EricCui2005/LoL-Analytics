@@ -300,6 +300,20 @@ class RiotAPI:
         return blue_team_kills - red_team_kills
     
     
+    def extract_frame_win_state(self, frame):
+        """
+        Extracts the win state of a given frame. Returns 1 if blue team wins, -1 if red team wins, and 0 if the game is still ongoing
+        """
+        
+        for event in frame["events"]:
+            if event["type"] == "GAME_END":
+                if event["winningTeam"] == 100:
+                    return 1
+                elif event["winningTeam"] == 200:
+                    return -1
+        return 0
+        
+    
     
     ### Utility Functions ###
     def save_to_json(self, data, file_path):
