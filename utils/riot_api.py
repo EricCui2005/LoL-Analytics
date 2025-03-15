@@ -1,6 +1,7 @@
 # Imports
 import requests
 import pandas as pd
+import json
 
 
 class RiotAPI:
@@ -141,6 +142,10 @@ class RiotAPI:
 
 
     def get_ranked_matches_by_name(self, game_name, tag_line):
+        """
+        Gets all ranked matches for a summoner by their name and tagline
+        """
+        
         try:
             # Get PUUID from summoner name and tagline
             puuid = self.get_puuid_by_name(game_name, tag_line)
@@ -185,15 +190,7 @@ class RiotAPI:
     
     def determine_team(self, puuid, match_id):
         """
-        Determines which team a player was on in a specific match
-        
-        Args:
-            puuid (str): The player's PUUID
-            match_id (str): The match ID to check
-            
-        Returns:
-            str: 'blue' if blue team and 'red' if red team
-            None if player not found in match
+        Determines which team a player was on in a specific match. teamId is 100 for blue and 200 for red
         """
         # Get match data
         match_data = self.get_match_data_by_match_id(match_id)
@@ -213,7 +210,6 @@ class RiotAPI:
         return "none"
     
     
-    # Function expects a frame object
     def extract_gold_difference(self, frame):
         """
         Extracts the total gold difference between the blue and red team at a given frame. Difference is positive if blue 
@@ -239,6 +235,7 @@ class RiotAPI:
 
         return gold_difference
     
+    
     def extract_frame_kills_difference(self, frame):
         """
         Extracts the difference in kills between the blue and red team that occurred in a given frame
@@ -258,6 +255,63 @@ class RiotAPI:
                 elif event["killerId"] in red_team_ids:
                     red_team_kills += 1
         return blue_team_kills - red_team_kills
+    
+    
+    def extract_frame_structure_kills_difference(self, frame):
+        """
+        Extracts the difference in structure kills between the blue and red team that occurred in a given frame. Difference is positive if blue 
+        team has more structure kills and negative if red team has more structure kills
+        """
+        
+        blueId = 100
+        redId = 200
+        
+        blue_team_kills = 0
+        red_team_kills = 0
+        
+        for event in frame["events"]:
+            if event["type"] == "BUILDING_KILL":
+                if event["teamId"] == redId:
+                    blue_team_kills += 1
+                elif event["teamId"] == blueId:
+                    red_team_kills += 1
+        
+        return blue_team_kills - red_team_kills
+    
+    def extract_frame_elite_monster_kills_difference(self, frame):
+        """
+        Extracts the difference in elite monster kills between the blue and red team that occurred in a given frame. Difference is positive if blue 
+        team has more elite monster kills and negative if red team has more elite monster kills
+        """
+        
+        blueId = 100
+        redId = 200
+        
+        blue_team_kills = 0
+        red_team_kills = 0
+        
+        for event in frame["events"]:
+            if event["type"] == "ELITE_MONSTER_KILL":
+                if event["killerTeamId"] == blueId:
+                    blue_team_kills += 1
+                elif event["killerTeamId"] == redId:
+                    red_team_kills += 1
+        
+        return blue_team_kills - red_team_kills
+    
+    
+    
+    ### Utility Functions ###
+    def save_to_json(self, data, file_path):
+        """
+        Saves a dictionary to a JSON file at the specified file path
+        """
+        
+        try:
+            with open(file_path, 'w') as f:
+                json.dump(data, f, indent=2)
+        except Exception as e:
+            print(f"Error saving JSON file: {str(e)}")
     
         
         
