@@ -312,6 +312,35 @@ class RiotAPI:
                 elif event["winningTeam"] == 200:
                     return -1
         return 0
+    
+    def extract_timeline_frame_info(self, timeline):
+        """
+        Extracts the gold difference, kills difference, structure kills difference, elite monster kills difference, and win state for each frame in a given timeline
+        """
+        info_list = []
+        frames = timeline["info"]["frames"]
+        
+        kills_diff = 0
+        structure_kills_diff = 0
+        elite_monster_kills_diff = 0
+        
+        for frame in frames:
+            gold_diff = self.extract_gold_difference(frame)
+            kills_diff += self.extract_frame_kills_difference(frame)
+            structure_kills_diff += self.extract_frame_structure_kills_difference(frame)
+            elite_monster_kills_diff += self.extract_frame_elite_monster_kills_difference(frame)
+            win_state = self.extract_frame_win_state(frame)
+            
+            info_list.append({
+                "timestamp": frame["timestamp"],
+                "gold_diff": gold_diff,
+                "kills_diff": kills_diff,
+                "structure_kills_diff": structure_kills_diff,
+                "elite_monster_kills_diff": elite_monster_kills_diff,
+                "win_state": win_state
+            })
+        
+        return info_list
         
     
     
