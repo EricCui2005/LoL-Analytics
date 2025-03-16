@@ -100,7 +100,7 @@ class RiotAPI:
     ### Match API Functions ###
     
     def get_matches_by_puuid(self, puuid):
-        url = f"https://americas.api.riotgames.com/lol/match/v5/matches/by-puuid/{puuid}/ids?count=50"
+        url = f"https://americas.api.riotgames.com/lol/match/v5/matches/by-puuid/{puuid}/ids?count=100"
         response = requests.get(url, headers=self.headers)
         matches = response.json()
         return matches
@@ -308,9 +308,9 @@ class RiotAPI:
         for event in frame["events"]:
             if event["type"] == "GAME_END":
                 if event["winningTeam"] == 100:
-                    return 1
+                    return 2
                 elif event["winningTeam"] == 200:
-                    return -1
+                    return 1
         return 0
     
     def extract_timeline_frame_info(self, timeline):

@@ -1,0 +1,390 @@
+[
+  {
+    "timestamp": 0,
+    "gold_diff": 3,
+    "kills_diff": 3,
+    "structure_kills_diff": 3,
+    "elite_monster_kills_diff": 3,
+    "win_state": 0,
+    "markov_coordinate": 3600
+  },
+  {
+    "timestamp": 60005,
+    "gold_diff": 2,
+    "kills_diff": 3,
+    "structure_kills_diff": 3,
+    "elite_monster_kills_diff": 3,
+    "win_state": 0,
+    "markov_coordinate": 2571
+  },
+  {
+    "timestamp": 120027,
+    "gold_diff": 4,
+    "kills_diff": 3,
+    "structure_kills_diff": 3,
+    "elite_monster_kills_diff": 3,
+    "win_state": 0,
+    "markov_coordinate": 4629
+  },
+  {
+    "timestamp": 180029,
+    "gold_diff": 2,
+    "kills_diff": 2,
+    "structure_kills_diff": 3,
+    "elite_monster_kills_diff": 3,
+    "win_state": 0,
+    "markov_coordinate": 2424
+  },
+  {
+    "timestamp": 240048,
+    "gold_diff": 2,
+    "kills_diff": 2,
+    "structure_kills_diff": 3,
+    "elite_monster_kills_diff": 3,
+    "win_state": 0,
+    "markov_coordinate": 2424
+  },
+  {
+    "timestamp": 300055,
+    "gold_diff": 2,
+    "kills_diff": 2,
+    "structure_kills_diff": 3,
+    "elite_monster_kills_diff": 3,
+    "win_state": 0,
+    "markov_coordinate": 2424
+  },
+  {
+    "timestamp": 360060,
+    "gold_diff": 2,
+    "kills_diff": 1,
+    "structure_kills_diff": 3,
+    "elite_monster_kills_diff": 3,
+    "win_state": 0,
+    "markov_coordinate": 2277
+  },
+  {
+    "timestamp": 420134,
+    "gold_diff": 2,
+    "kills_diff": 2,
+    "structure_kills_diff": 3,
+    "elite_monster_kills_diff": 4,
+    "win_state": 0,
+    "markov_coordinate": 2427
+  },
+  {
+    "timestamp": 480163,
+    "gold_diff": 2,
+    "kills_diff": 1,
+    "structure_kills_diff": 3,
+    "elite_monster_kills_diff": 4,
+    "win_state": 0,
+    "markov_coordinate": 2280
+  },
+  {
+    "timestamp": 540165,
+    "gold_diff": 2,
+    "kills_diff": 1,
+    "structure_kills_diff": 3,
+    "elite_monster_kills_diff": 4,
+    "win_state": 0,
+    "markov_coordinate": 2280
+  },
+  {
+    "timestamp": 600179,
+    "gold_diff": 2,
+    "kills_diff": 1,
+    "structure_kills_diff": 3,
+    "elite_monster_kills_diff": 4,
+    "win_state": 0,
+    "markov_coordinate": 2280
+  },
+  {
+    "timestamp": 660200,
+    "gold_diff": 2,
+    "kills_diff": 1,
+    "structure_kills_diff": 3,
+    "elite_monster_kills_diff": 4,
+    "win_state": 0,
+    "markov_coordinate": 2280
+  },
+  {
+    "timestamp": 720210,
+    "gold_diff": 2,
+    "kills_diff": 2,
+    "structure_kills_diff": 3,
+    "elite_monster_kills_diff": 5,
+    "win_state": 0,
+    "markov_coordinate": 2430
+  },
+  {
+    "timestamp": 780220,
+    "gold_diff": 2,
+    "kills_diff": 2,
+    "structure_kills_diff": 3,
+    "elite_monster_kills_diff": 5,
+    "win_state": 0,
+    "markov_coordinate": 2430
+  },
+  {
+    "timestamp": 840224,
+    "gold_diff": 2,
+    "kills_diff": 2,
+    "structure_kills_diff": 3,
+    "elite_monster_kills_diff": 5,
+    "win_state": 0,
+    "markov_coordinate": 2430
+  },
+  {
+    "timestamp": 900250,
+    "gold_diff": 4,
+    "kills_diff": 3,
+    "structure_kills_diff": 4,
+    "elite_monster_kills_diff": 5,
+    "win_state": 0,
+    "markov_coordinate": 4656
+  },
+  {
+    "timestamp": 960258,
+    "gold_diff": 2,
+    "kills_diff": 2,
+    "structure_kills_diff": 3,
+    "elite_monster_kills_diff": 5,
+    "win_state": 0,
+    "markov_coordinate": 2430
+  },
+  {
+    "timestamp": 1020290,
+    "gold_diff": 4,
+    "kills_diff": 3,
+    "structure_kills_diff": 3,
+    "elite_monster_kills_diff": 5,
+    "win_state": 0,
+    "markov_coordinate": 4635
+  },
+  {
+    "timestamp": 1080313,
+    "gold_diff": 4,
+    "kills_diff": 2,
+    "structure_kills_diff": 4,
+    "elite_monster_kills_diff": 5,
+    "win_state": 0,
+    "markov_coordinate": 4509
+  },
+  {
+    "timestamp": 1140321,
+    "gold_diff": 2,
+    "kills_diff": 2,
+    "structure_kills_diff": 4,
+    "elite_monster_kills_diff": 5,
+    "win_state": 0,
+    "markov_coordinate": 2451
+  },
+  {
+    "timestamp": 1200342,
+    "gold_diff": 2,
+    "kills_diff": 2,
+    "structure_kills_diff": 3,
+    "elite_monster_kills_diff": 5,
+    "win_state": 0,
+    "markov_coordinate": 2430
+  },
+  {
+    "timestamp": 1260362,
+    "gold_diff": 2,
+    "kills_diff": 2,
+    "structure_kills_diff": 3,
+    "elite_monster_kills_diff": 5,
+    "win_state": 0,
+    "markov_coordinate": 2430
+  },
+  {
+    "timestamp": 1320377,
+    "gold_diff": 2,
+    "kills_diff": 2,
+    "structure_kills_diff": 3,
+    "elite_monster_kills_diff": 5,
+    "win_state": 0,
+    "markov_coordinate": 2430
+  },
+  {
+    "timestamp": 1380390,
+    "gold_diff": 1,
+    "kills_diff": 1,
+    "structure_kills_diff": 3,
+    "elite_monster_kills_diff": 5,
+    "win_state": 0,
+    "markov_coordinate": 1254
+  },
+  {
+    "timestamp": 1440415,
+    "gold_diff": 1,
+    "kills_diff": 1,
+    "structure_kills_diff": 3,
+    "elite_monster_kills_diff": 4,
+    "win_state": 0,
+    "markov_coordinate": 1251
+  },
+  {
+    "timestamp": 1500445,
+    "gold_diff": 1,
+    "kills_diff": 1,
+    "structure_kills_diff": 4,
+    "elite_monster_kills_diff": 4,
+    "win_state": 0,
+    "markov_coordinate": 1272
+  },
+  {
+    "timestamp": 1560450,
+    "gold_diff": 1,
+    "kills_diff": 1,
+    "structure_kills_diff": 4,
+    "elite_monster_kills_diff": 4,
+    "win_state": 0,
+    "markov_coordinate": 1272
+  },
+  {
+    "timestamp": 1620477,
+    "gold_diff": 1,
+    "kills_diff": 1,
+    "structure_kills_diff": 4,
+    "elite_monster_kills_diff": 4,
+    "win_state": 0,
+    "markov_coordinate": 1272
+  },
+  {
+    "timestamp": 1680480,
+    "gold_diff": 0,
+    "kills_diff": 0,
+    "structure_kills_diff": 1,
+    "elite_monster_kills_diff": 4,
+    "win_state": 0,
+    "markov_coordinate": 33
+  },
+  {
+    "timestamp": 1700848,
+    "gold_diff": 0,
+    "kills_diff": 0,
+    "structure_kills_diff": 1,
+    "elite_monster_kills_diff": 4,
+    "win_state": 1,
+    "markov_coordinate": 34
+  },
+  [
+    [
+      3600,
+      2571
+    ],
+    [
+      2571,
+      4629
+    ],
+    [
+      4629,
+      2424
+    ],
+    [
+      2424,
+      2424
+    ],
+    [
+      2424,
+      2424
+    ],
+    [
+      2424,
+      2277
+    ],
+    [
+      2277,
+      2427
+    ],
+    [
+      2427,
+      2280
+    ],
+    [
+      2280,
+      2280
+    ],
+    [
+      2280,
+      2280
+    ],
+    [
+      2280,
+      2280
+    ],
+    [
+      2280,
+      2430
+    ],
+    [
+      2430,
+      2430
+    ],
+    [
+      2430,
+      2430
+    ],
+    [
+      2430,
+      4656
+    ],
+    [
+      4656,
+      2430
+    ],
+    [
+      2430,
+      4635
+    ],
+    [
+      4635,
+      4509
+    ],
+    [
+      4509,
+      2451
+    ],
+    [
+      2451,
+      2430
+    ],
+    [
+      2430,
+      2430
+    ],
+    [
+      2430,
+      2430
+    ],
+    [
+      2430,
+      1254
+    ],
+    [
+      1254,
+      1251
+    ],
+    [
+      1251,
+      1272
+    ],
+    [
+      1272,
+      1272
+    ],
+    [
+      1272,
+      1272
+    ],
+    [
+      1272,
+      33
+    ],
+    [
+      33,
+      34
+    ]
+  ]
+]

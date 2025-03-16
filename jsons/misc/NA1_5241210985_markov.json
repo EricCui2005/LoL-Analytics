@@ -5,7 +5,8 @@
     "kills_diff": 3,
     "structure_kills_diff": 3,
     "elite_monster_kills_diff": 3,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 3600
   },
   {
     "timestamp": 60017,
@@ -13,7 +14,8 @@
     "kills_diff": 3,
     "structure_kills_diff": 3,
     "elite_monster_kills_diff": 3,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 3600
   },
   {
     "timestamp": 120028,
@@ -21,7 +23,8 @@
     "kills_diff": 4,
     "structure_kills_diff": 3,
     "elite_monster_kills_diff": 3,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 4776
   },
   {
     "timestamp": 180100,
@@ -29,7 +32,8 @@
     "kills_diff": 3,
     "structure_kills_diff": 3,
     "elite_monster_kills_diff": 3,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 4629
   },
   {
     "timestamp": 240107,
@@ -37,7 +41,8 @@
     "kills_diff": 3,
     "structure_kills_diff": 3,
     "elite_monster_kills_diff": 3,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 2571
   },
   {
     "timestamp": 300142,
@@ -45,7 +50,8 @@
     "kills_diff": 3,
     "structure_kills_diff": 3,
     "elite_monster_kills_diff": 3,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 2571
   },
   {
     "timestamp": 360143,
@@ -53,7 +59,8 @@
     "kills_diff": 3,
     "structure_kills_diff": 3,
     "elite_monster_kills_diff": 3,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 2571
   },
   {
     "timestamp": 420146,
@@ -61,7 +68,8 @@
     "kills_diff": 2,
     "structure_kills_diff": 3,
     "elite_monster_kills_diff": 4,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 2427
   },
   {
     "timestamp": 480163,
@@ -69,7 +77,8 @@
     "kills_diff": 2,
     "structure_kills_diff": 3,
     "elite_monster_kills_diff": 4,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 2427
   },
   {
     "timestamp": 540178,
@@ -77,7 +86,8 @@
     "kills_diff": 2,
     "structure_kills_diff": 3,
     "elite_monster_kills_diff": 4,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 2427
   },
   {
     "timestamp": 600201,
@@ -85,7 +95,8 @@
     "kills_diff": 2,
     "structure_kills_diff": 3,
     "elite_monster_kills_diff": 4,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 2427
   },
   {
     "timestamp": 660233,
@@ -93,7 +104,8 @@
     "kills_diff": 1,
     "structure_kills_diff": 3,
     "elite_monster_kills_diff": 4,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 2280
   },
   {
     "timestamp": 720263,
@@ -101,7 +113,8 @@
     "kills_diff": 1,
     "structure_kills_diff": 3,
     "elite_monster_kills_diff": 2,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 2274
   },
   {
     "timestamp": 780291,
@@ -109,7 +122,8 @@
     "kills_diff": 1,
     "structure_kills_diff": 3,
     "elite_monster_kills_diff": 2,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 1245
   },
   {
     "timestamp": 840297,
@@ -117,7 +131,8 @@
     "kills_diff": 1,
     "structure_kills_diff": 2,
     "elite_monster_kills_diff": 2,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 195
   },
   {
     "timestamp": 900324,
@@ -125,7 +140,8 @@
     "kills_diff": 0,
     "structure_kills_diff": 1,
     "elite_monster_kills_diff": 2,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 27
   },
   {
     "timestamp": 950754,
@@ -133,6 +149,73 @@
     "kills_diff": 0,
     "structure_kills_diff": 1,
     "elite_monster_kills_diff": 2,
-    "win_state": -1
-  }
+    "win_state": 1,
+    "markov_coordinate": 28
+  },
+  [
+    [
+      3600,
+      3600
+    ],
+    [
+      3600,
+      4776
+    ],
+    [
+      4776,
+      4629
+    ],
+    [
+      4629,
+      2571
+    ],
+    [
+      2571,
+      2571
+    ],
+    [
+      2571,
+      2571
+    ],
+    [
+      2571,
+      2427
+    ],
+    [
+      2427,
+      2427
+    ],
+    [
+      2427,
+      2427
+    ],
+    [
+      2427,
+      2427
+    ],
+    [
+      2427,
+      2280
+    ],
+    [
+      2280,
+      2274
+    ],
+    [
+      2274,
+      1245
+    ],
+    [
+      1245,
+      195
+    ],
+    [
+      195,
+      27
+    ],
+    [
+      27,
+      28
+    ]
+  ]
 ]

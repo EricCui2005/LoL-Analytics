@@ -5,7 +5,8 @@
     "kills_diff": 3,
     "structure_kills_diff": 3,
     "elite_monster_kills_diff": 3,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 3600
   },
   {
     "timestamp": 60026,
@@ -13,7 +14,8 @@
     "kills_diff": 3,
     "structure_kills_diff": 3,
     "elite_monster_kills_diff": 3,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 3600
   },
   {
     "timestamp": 120035,
@@ -21,7 +23,8 @@
     "kills_diff": 3,
     "structure_kills_diff": 3,
     "elite_monster_kills_diff": 3,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 2571
   },
   {
     "timestamp": 180050,
@@ -29,7 +32,8 @@
     "kills_diff": 3,
     "structure_kills_diff": 3,
     "elite_monster_kills_diff": 3,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 4629
   },
   {
     "timestamp": 240053,
@@ -37,7 +41,8 @@
     "kills_diff": 2,
     "structure_kills_diff": 3,
     "elite_monster_kills_diff": 3,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 2424
   },
   {
     "timestamp": 300066,
@@ -45,7 +50,8 @@
     "kills_diff": 4,
     "structure_kills_diff": 3,
     "elite_monster_kills_diff": 3,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 4776
   },
   {
     "timestamp": 360083,
@@ -53,7 +59,8 @@
     "kills_diff": 4,
     "structure_kills_diff": 3,
     "elite_monster_kills_diff": 2,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 4773
   },
   {
     "timestamp": 420095,
@@ -61,7 +68,8 @@
     "kills_diff": 4,
     "structure_kills_diff": 3,
     "elite_monster_kills_diff": 3,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 4776
   },
   {
     "timestamp": 480121,
@@ -69,7 +77,8 @@
     "kills_diff": 4,
     "structure_kills_diff": 3,
     "elite_monster_kills_diff": 3,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 4776
   },
   {
     "timestamp": 540136,
@@ -77,7 +86,8 @@
     "kills_diff": 4,
     "structure_kills_diff": 3,
     "elite_monster_kills_diff": 3,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 4776
   },
   {
     "timestamp": 600145,
@@ -85,7 +95,8 @@
     "kills_diff": 4,
     "structure_kills_diff": 3,
     "elite_monster_kills_diff": 3,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 4776
   },
   {
     "timestamp": 660169,
@@ -93,7 +104,8 @@
     "kills_diff": 4,
     "structure_kills_diff": 3,
     "elite_monster_kills_diff": 2,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 4773
   },
   {
     "timestamp": 720175,
@@ -101,7 +113,8 @@
     "kills_diff": 4,
     "structure_kills_diff": 3,
     "elite_monster_kills_diff": 2,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 4773
   },
   {
     "timestamp": 780267,
@@ -109,7 +122,8 @@
     "kills_diff": 4,
     "structure_kills_diff": 3,
     "elite_monster_kills_diff": 2,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 2715
   },
   {
     "timestamp": 840278,
@@ -117,7 +131,8 @@
     "kills_diff": 4,
     "structure_kills_diff": 3,
     "elite_monster_kills_diff": 2,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 2715
   },
   {
     "timestamp": 900288,
@@ -125,7 +140,8 @@
     "kills_diff": 2,
     "structure_kills_diff": 2,
     "elite_monster_kills_diff": 2,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 1371
   },
   {
     "timestamp": 960317,
@@ -133,7 +149,8 @@
     "kills_diff": 2,
     "structure_kills_diff": 1,
     "elite_monster_kills_diff": 2,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 1350
   },
   {
     "timestamp": 1020335,
@@ -141,7 +158,8 @@
     "kills_diff": 1,
     "structure_kills_diff": 1,
     "elite_monster_kills_diff": 2,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 1203
   },
   {
     "timestamp": 1080361,
@@ -149,7 +167,8 @@
     "kills_diff": 2,
     "structure_kills_diff": 1,
     "elite_monster_kills_diff": 1,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 1347
   },
   {
     "timestamp": 1140380,
@@ -157,7 +176,8 @@
     "kills_diff": 2,
     "structure_kills_diff": 1,
     "elite_monster_kills_diff": 1,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 1347
   },
   {
     "timestamp": 1200395,
@@ -165,7 +185,8 @@
     "kills_diff": 2,
     "structure_kills_diff": 1,
     "elite_monster_kills_diff": 1,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 1347
   },
   {
     "timestamp": 1260414,
@@ -173,7 +194,8 @@
     "kills_diff": 1,
     "structure_kills_diff": 0,
     "elite_monster_kills_diff": 1,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 150
   },
   {
     "timestamp": 1320431,
@@ -181,7 +203,8 @@
     "kills_diff": 1,
     "structure_kills_diff": 0,
     "elite_monster_kills_diff": 1,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 150
   },
   {
     "timestamp": 1380432,
@@ -189,7 +212,8 @@
     "kills_diff": 0,
     "structure_kills_diff": 0,
     "elite_monster_kills_diff": 0,
-    "win_state": 0
+    "win_state": 0,
+    "markov_coordinate": 0
   },
   {
     "timestamp": 1438160,
@@ -197,6 +221,105 @@
     "kills_diff": 0,
     "structure_kills_diff": 0,
     "elite_monster_kills_diff": 0,
-    "win_state": -1
-  }
+    "win_state": 1,
+    "markov_coordinate": 1
+  },
+  [
+    [
+      3600,
+      3600
+    ],
+    [
+      3600,
+      2571
+    ],
+    [
+      2571,
+      4629
+    ],
+    [
+      4629,
+      2424
+    ],
+    [
+      2424,
+      4776
+    ],
+    [
+      4776,
+      4773
+    ],
+    [
+      4773,
+      4776
+    ],
+    [
+      4776,
+      4776
+    ],
+    [
+      4776,
+      4776
+    ],
+    [
+      4776,
+      4776
+    ],
+    [
+      4776,
+      4773
+    ],
+    [
+      4773,
+      4773
+    ],
+    [
+      4773,
+      2715
+    ],
+    [
+      2715,
+      2715
+    ],
+    [
+      2715,
+      1371
+    ],
+    [
+      1371,
+      1350
+    ],
+    [
+      1350,
+      1203
+    ],
+    [
+      1203,
+      1347
+    ],
+    [
+      1347,
+      1347
+    ],
+    [
+      1347,
+      1347
+    ],
+    [
+      1347,
+      150
+    ],
+    [
+      150,
+      150
+    ],
+    [
+      150,
+      0
+    ],
+    [
+      0,
+      1
+    ]
+  ]
 ]
